@@ -6,7 +6,7 @@ int main() {
 
   Tarefa tarefas[TOTAL];
   int pos;
-  ERROS erro = fs[4](tarefas, &pos);
+  ERROS erro = fs4;
   if (erro != OK)
     pos = 0;
 
@@ -24,11 +24,11 @@ int main() {
     if (opcao > 2)
       printf("Opcao invalida\n");
     else if (opcao >= 0)
-      fs[opcao](tarefas, &pos);
+      fsopcao;
     else
       printf("Sair...\n");
 
   } while (opcao >= 0);
 
-  fs[3](tarefas, &pos);
+  fs3;
 }
